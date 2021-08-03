@@ -17,28 +17,49 @@
     </header>
     <main>
         <article>
-            <p><strong>Inscripcion</strong></p>
-            <form id="form-datos">
-                <label for="fnombre">Nombre</label>
-                <input type="text" id="fnombre" name="fnombre">
-                <label for="fapellido">Apellido</label>
-                <input type="text" id="fapellido" name="fapellido"><br>
-                <label for="femail">@Email</label>
-                <input type="femail" id="femail">
-                <label for="ftel">Numero de contacto</label>
-                <input type="ftel" id="ftel">
+            <form>
+                <fieldset>
+                    <legend>Buscar</legend>
+                    <input type="search" id="fbuscar" name="fbuscar" /><br>
+                </fieldset>
+            </form>
+            <form>
+                <p>
+                    <fieldset>
+                        <legend>Crear cuenta</legend>
+                        <label for="fnombre">Nombre</label>
+                        <input type="text" id="fnombre" name="fnombre" placeholder="Luisa">
+                        <label for="fapellido">Apellido</label>
+                        <input type="text" id="fapellido" name="fapellido" placeholder="Perez">
+                        <label for="femail">@Email</label>
+                        <input type="femail" id="femail" placeholder="correo@email.com"  required /><br>
+                        <label for="fpwd">Contraseña</label>
+                        <input type="password" name="fpwd" id="fpwd" placeholder="clave1234" pattern=".{6,}" required />
+                        <label for="ftel">Numero de contacto</label>
+                        <input type="tel" name="ftel" id="ftel" placeholder="78915646" />
+                        <label for="fdatetime">Fecha </label>
+                        <input type="date" name="fdatetime" id="fdatetime" min="1996-09-21" max="2150-12-12" /><br>
+                        <label for="fcolor">Color favorito</label>
+                        <input type="color" name="fcolor" id="fcolor" value="#1a33FF" />
+                        <label for="frango">Rango experiencia</label>
+                        <input type="range" name="frango" id="frango" min="0" max="10" />
+
+                </p>
+                <p>
+                    <fieldset>
+                        <legend>Cual es el lenguaje por el que vas a empezar</legend>
+                        <input type="radio" id="html" name="fav_languajes" value="HTML" checked>
+                        <label for="html">HTML</label><br>
+                        <input type="radio" id="css" name="fav_languajes" value="CSS">
+                        <label for="css">CSS</label><br>
+                        <input type="radio" id="javascript" name="fav_languajes" value="JavaScript">
+                        <label for="javascript">JavaScript</label><br>
+                    </fieldset>
+                </p>
+                <input type="submit" value="Enviar">
+                </fieldset>
             </form>
 
-            <p>Cual es el lenguaje por el que vas a empezar</p>
-            <form id="form-interes">
-                <input type="radio" id="html" name="fav_languajes" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_languajes" value="CSS">
-                <label for="css">CSS</label><br>
-                <input type="radio" id="javascript" name="fav_languajes" value="JavaScript">
-                <label for="javascript">JavaScript</label><br>
-                <input type="submit" value="Enviar">
-            </form>
         </article>
     </main>
     <nav>
@@ -56,12 +77,14 @@
         </ol>
 
         <h2>Lista de descripcion</h2>
-            <dt>Primer elemento</dt>
-            <dd>Descripcion primer elemento</dd>
+        <dt>Primer elemento</dt>
+        <dd>Descripcion primer elemento</dd>
     </aside>
 
     <footer>
-        <p>Author:Stiven Gonzalez.</p>
+        <p>Author:Stiven Gonzalez</p>
+        <a href="https://www.linkedin.com/in/stiven-gonzalez/"><img src="img/foto hv camilo.png" alt="Foto Author"></a><br>
+        <img src="https://scontent.fbog4-2.fna.fbcdn.net/v/t1.6435-9/193130720_331045011868999_1746573425550259469_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeETHBO0rUOxPkzrKO8fU1DA34I7DuLtrBbfgjsO4u2sFqx8nnTJBxHCvdpMgBCLn7IyICHwfgD_xq3jI4h8s4CF&_nc_ohc=YmF8gbYEY5oAX8qPfmm&tn=Q7TxErJ6dnznikjN&_nc_ht=scontent.fbog4-2.fna&oh=8cf3a9295124f44a0441c0dc8c49d32f&oe=612EA96A" width="250" height="250"><br>
         <a href="https://www.linkedin.com/in/stiven-gonzalez/">https://www.linkedin.com/in/stiven-gonzalez/</a>
     </footer>
 </body>
