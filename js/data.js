@@ -1,2 +1,2 @@
 "use stric"
-alert('Hola desde un archivo externo');
+alert('Bienvenidos JS');
