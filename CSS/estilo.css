@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+}
+
+/*h1 {
+    color: white;
+    text-align: center;
+}*/
+
+p {
+    font-family: verdana;
+    font-size: 16px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: brown;
+}
+article {
+    color: black;
+    text-align:left;
+    background-color: slategrey;
+}
+nav{
+    width: 50%;
+    margin:5px;
+    padding: 5px;
+    float: right;
+    color: black;
+    text-align:left;
+    background-color: brown;
+}
+main{
+    background-color:cornflowerblue;
+}
+aside{
+    width: 15%;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    color: black;
+    text-align:right;
+    /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg);*/
+}
+footer{
+    float:none;
+    color: black;
+    text-align:left;
+    background-color: coral;
+}
+#fboton{
+    /*background-image: url();*/
+    display:inline-block;
+    padding: 2px 2px;
+    text-align: center;
+    width: 4%;
+}
