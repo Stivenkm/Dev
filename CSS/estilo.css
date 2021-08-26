@@ -56,3 +56,6 @@ footer{
     text-align: center;
     width: 60px;
 }
+#fboton:hover{
+    background-color: #008CBA;
+}

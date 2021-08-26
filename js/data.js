@@ -1,2 +1,4 @@
 "use stric"
-alert('Bienvenidos JS');
+function saludo(){
+    alert('Bienvenidos JS');
+}
