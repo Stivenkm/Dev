@@ -9,7 +9,7 @@ body {
 
 p {
     font-family: verdana;
-    font-size: 50%;
+    font-size: 95%;
 }
 
 header {
@@ -30,6 +30,8 @@ nav{
     color: black;
     text-align:left;
     background-color: brown;
+    position:relative;
+    right: 50%;
 }
 main{
     background-color:cornflowerblue;
@@ -41,6 +43,8 @@ aside{
     float: right;
     color: black;
     text-align:right;
+    position:relative;
+    left: 50%;
     /*background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg);*/
 }
 footer{
